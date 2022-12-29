@@ -1,0 +1,555 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    
+}
+
+h1 {
+
+    color: #ff1d6e;
+    font-weight: bold;
+
+}
+
+h2 {
+
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+
+}
+
+h3 {
+
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+h4 {
+
+    margin-bottom: 15px;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+p {
+
+    font-size: 18px;
+
+}
+
+#habilidades .contacto li {
+
+    margin-top: -18px;
+    
+}
+
+body {
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+                     /* HEADER */
+
+header {
+
+    background-color:#5DC1B9;
+
+}
+
+header .container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+} 
+
+i {
+
+    margin-top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.contenedor {
+
+    position: absolute;
+    height: 30vh;
+    width: 425px;
+
+}
+
+.linksMenu {
+
+    text-decoration: none;
+    color: #000000;
+    line-height: 2.3;
+    font-weight: bold;
+    width: 100vw;
+
+}
+
+.contenedorMenu {
+
+    position: absolute;
+    padding: 50px 0px;
+    transform: translateY(-250%);
+    transition: transform 0.5s;
+    height: 250px;
+    width: 425px;
+    text-align: center;
+    background-color: #ff1d6e;
+
+}
+
+.menuShow {
+
+    transform: translateY(0);
+
+}
+
+header .container a:hover {
+
+    color: #ff1d6e;
+
+
+}
+
+header .container .button {
+
+    margin-top: -5px;
+    font-size: 15px;
+    background-color: #ff1d6e;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    
+}
+
+header .container .button:hover {
+
+    color: #493131;
+
+}
+
+                          /* HERO */
+             
+#hero {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .img-container {
+
+    background-image: url(img/yo.jpg);
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+#hero p {
+
+    text-align: center;
+    padding: 0px 50px;
+
+}
+
+#hero .btn-hero {
+
+    font-size: 15px;
+    background-color: #fff;
+    color: #0f8f84;
+    border-radius: 50px;
+    border: #24a89d solid;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#hero .btn-hero:hover {
+
+    background-color: #c3e6e3;
+
+}
+
+                     /* PRIMERA SECCION-EXPERIENCIA LABORAL */
+
+#experiencia {
+
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+#experiencia .container p{
+
+    margin-bottom: 10px;
+
+}
+
+#experiencia .container .p1 {
+
+
+    display: inline-block;
+    color: #fff;
+    background-color:#0f8f84 ;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#experiencia .container .p2 {
+    
+    color: #000000c4;
+
+}
+
+.container .experiencia  {
+
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 50px;
+
+}
+
+                      /* SEGUNDA SECCION-EDUCACION */
+
+#educacion {
+
+    padding: 50px;
+
+}
+
+#educacion .containerCertificado {
+
+    text-align: center;
+}
+
+#educacion .container p {
+
+    margin-bottom: 10px;
+
+}
+
+#educacion .container .p1 {
+
+    display: inline-block;
+    color: #fff;
+    background-color:#ff1d6e ;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#eduacion .container .p2 {
+
+    color: #000000c4;
+
+}
+
+.container .escuela-secundaria {
+
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.certificado {
+
+    padding: 20px;
+    margin-top: 35px;
+
+}
+
+.buttonCertificado {
+    
+    font-size: 15px;
+    background-color: #ff1d6e;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+                         /* TERCERA SECCION-HABILIDADES */
+
+#habilidades {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+#habilidades .container {
+
+    padding: 50px 100px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+#habilidades .contacto {
+
+    padding: 50px 100px;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 50px;
+
+}
+
+#habilidades .container h3 {
+
+    margin-bottom: 20px;
+    
+}
+
+#habilidades .linea1 {
+
+    width: 150px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-bottom: 10px;
+
+}
+
+#habilidades .linea2 {
+
+    width: 120px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-bottom: 10px;
+
+}
+
+#habilidades .linea3 {
+
+    width: 80px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-bottom: 10px ;
+
+}
+
+#habilidades .linea4 {
+
+    width: 20px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-top: 10px ;
+
+}
+
+#habilidades .contacto h3 {
+
+    margin-bottom: 20px;
+
+}
+
+#habilidades ul li {
+
+    margin-bottom: 15px;
+
+}
+
+                         /* CUARTA SECCION-HOBBIE */
+
+#hobbie h2 {
+
+    margin: 0;
+
+}
+
+#hobbie P {
+
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+                          /* FOOTER */
+
+footer {
+
+    height: 100px;
+    margin-top: 50px;
+    background-color:rgb(235, 235, 235) ;
+
+}
+
+footer a {
+
+    color: #ff1d6e ;
+    margin-top: 20px;
+    
+}
+
+footer .container {
+
+    
+    font-size: 30px;
+    padding: 0 30%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+                          /* MEDIA 768PX */
+
+@media (min-width:768px) {
+
+    header .container i {
+
+        display: none;
+
+    }
+
+    header .container a {
+
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    #hero p {
+
+        padding: 0px 120px;
+    }
+
+    #habilidades {
+
+        flex-direction: row;
+    
+    }
+
+    #habilidades .contacto {
+
+        padding: 50px;
+        padding-top: 40px;
+
+    }
+
+    #hobbie p {
+
+        margin-top: 40px;
+        padding: 0px 120px;
+
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    #hero p {
+
+        padding: 0px 150px;
+    }
+
+
+    #habilidades {
+
+        justify-content: space-evenly;
+        
+    }
+
+    #habilidades .contacto {
+
+        padding-top: 40px;
+
+    }
+
+    #hobbie {
+
+        padding: 0px 150px;
+
+    }
+
+}
+
+@media (min-width:1440px) {
+
+    header {
+
+        font-size: 20px;
+
+    }
+
+    header .container a {
+
+        font-size: 30px;
+
+    }
+
+    #hero p {
+
+        padding: 0px 300px;
+
+    }
+
+    #hobbie {
+
+        padding: 0px 300px;
+
+    }
+
+}
+
+@media (max-width:767px) {
+
+    header .container a {
+
+        display: none;
+
+    }
+
+    header .container .button {
+
+        display: block;
+        text-decoration: none;
+        
+    }
+
+}
+
